@@ -9,6 +9,7 @@ Following are the criteria for checking the transaction password:
 5. Maximum length of transaction password: 6
 6. No space is allowed
 Write a program which will accept a sequence of comma separated transaction passwords and will check them according to the bank's criteria. Passwords that match the criteria are to be printed, each separated by a comma."""
+
 import re
 pass_list=raw_input("Enter the passwords, they should be comma separated> ")
 y=pass_list.split(",") #produce an array of passwords
